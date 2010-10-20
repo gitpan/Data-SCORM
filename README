@@ -1,55 +1,61 @@
-Data-SCORM-Manifest
-
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+Data::SCORM(3)        User Contributed Perl Documentation       Data::SCORM(3)
 
 
-INSTALLATION
 
-To install this module, run the following commands:
+NNAAMMEE
+       Data::SCORM - Parse SCO files (PIFs)
 
-	perl Makefile.PL
-	make
-	make test
-	make install
+VVEERRSSIIOONN
+       Version 0.04
 
-SUPPORT AND DOCUMENTATION
+SSYYNNOOPPSSIISS
+       Quick summary of what the module does.
 
-After installing, you can find documentation for this module with the
-perldoc command.
+       Perhaps a little code snippet.
 
-    perldoc Data::SCORM::Manifest
+           use Data::SCORM;
 
-You can also look for information at:
+           my $foo = Data::SCORM->new();
+           ...
 
-    RT, CPAN's request tracker
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data-SCORM-Manifest
+AAUUTTHHOORR
+       osfameron, "<osfameron at cpan.org>"
 
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Data-SCORM-Manifest
+BBUUGGSS
+       Please report any bugs or feature requests to "bug-data-scorm at
+       rt.cpan.org", or through the web interface at
+       http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Data-SCORM
+       <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Data-SCORM>.  I will be
+       notified, and then you'll automatically be notified of progress on your
+       bug as I make changes.
 
-    CPAN Ratings
-        http://cpanratings.perl.org/d/Data-SCORM-Manifest
+SSUUPPPPOORRTT
+       You can find documentation for this module with the perldoc command.
 
-    Search CPAN
-        http://search.cpan.org/dist/Data-SCORM-Manifest/
+           perldoc Data::SCORM
+
+       You can also look for information at:
+
+       ·   RT: CPAN's request tracker
+
+           http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data-SCORM
+           <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data-SCORM>
+
+       ·   Search CPAN
+
+           http://search.cpan.org/dist/Data-SCORM/
+           <http://search.cpan.org/dist/Data-SCORM/>
+
+AACCKKNNOOWWLLEEDDGGEEMMEENNTTSS
+CCOOPPYYRRIIGGHHTT && LLIICCEENNSSEE
+       Copyright 2009 OSFAMERON.
+
+       This program is free software; you can redistribute it and/or modify it
+       under the terms of either: the GNU General Public License as published
+       by the Free Software Foundation; or the Artistic License.
+
+       See http://dev.perl.org/licenses/ for more information.
 
 
-COPYRIGHT AND LICENCE
 
-Copyright (C) 2009 OSFAMERON
-
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See http://dev.perl.org/licenses/ for more information.
-
+perl v5.10.0                      2010-10-18                    Data::SCORM(3)

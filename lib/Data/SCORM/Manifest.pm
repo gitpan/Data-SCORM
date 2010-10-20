@@ -183,6 +183,13 @@ sub as_hoh {
 		my %org = %$org;
 		$org{resources} = \@resources;
 
+        my @items = map { 
+            my $item = { %$_ };
+            $item->{resource} = { %{ $item->{resource} } };
+            $item;
+            } @{ $org{items} };
+        $org{items} = \@items;
+
 		( $org_name => \%org );
 	  } $self->organization_ids;
 
