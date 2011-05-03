@@ -28,8 +28,9 @@ requires:
   Mouse: 0
   Mouse::Util::TypeConstraints: 0
   MouseX::AttributeHelpers: 0
+  Params::Coerce: 0
   Scalar::Util: 0
   XML::Twig: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05
